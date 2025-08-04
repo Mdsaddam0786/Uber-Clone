@@ -1,14 +1,5 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/"
-      
-  "buildCommand": "npm run build",
-  "installCommand": "npm install",
-  "outputDirectory": "dist"
-}
-    
-    
-  ]
+ "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app"
 }
